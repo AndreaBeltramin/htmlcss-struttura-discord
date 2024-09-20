@@ -51,3 +51,23 @@ a {
 	width: 500px;
 	border: black dashed;
 }
+.second-section {
+	background-color: white;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.second-box {
+	background-color: lightblue;
+	width: 200px;
+	height: 400px;
+	border: black dashed;
+}
+
+.third-box {
+	background-color: salmon;
+	width: 200px;
+	height: 400px;
+	border: black dashed;
+}
