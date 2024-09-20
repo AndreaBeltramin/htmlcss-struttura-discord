@@ -18,7 +18,7 @@ a {
 }
 /*header*/
 .page-header {
-	background-color: rgb(142, 171, 190);
+	background-color: rgb(172, 214, 228);
 	padding: 30px 50px;
 	display: flex;
 	justify-content: center;
@@ -26,7 +26,7 @@ a {
 
 .nav {
 	display: flex;
-	background-color: rgb(185, 173, 64);
+	background-color: #d7a522;
 	justify-content: space-between;
 	border: black dashed;
 	padding: 15px;
@@ -38,36 +38,78 @@ a {
 /*main*/
 .first-section {
 	display: flex;
-	background-color: blue;
+	background-color: rgb(1, 0, 136);
 	justify-content: center;
 	height: 300px;
 	align-items: center;
 }
 .first-box {
-	background-color: pink;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	height: 200px;
-	width: 500px;
+	background-color: rgb(236, 129, 235);
+	height: 240px;
+	width: 600px;
 	border: black dashed;
 }
 .second-section {
 	background-color: white;
-	padding: 20px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	height: 400px;
 }
 .second-box {
-	background-color: lightblue;
+	background-color: rgb(30, 143, 247);
 	width: 200px;
-	height: 400px;
+	height: 320px;
 	border: black dashed;
+	width: 35%;
 }
 
 .third-box {
-	background-color: salmon;
+	background-color: rgb(249, 191, 203);
 	width: 200px;
+	height: 320px;
+	border: black dashed;
+	width: 20%;
+}
+
+.third-section {
+	background-color: rgb(210, 210, 210);
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	height: 400px;
+}
+.box-four {
+	background-color: rgb(249, 191, 203);
+	width: 200px;
+	height: 320px;
+	border: black dashed;
+}
+
+.box-five {
+	background-color: rgb(30, 143, 247);
+	width: 35%;
+	height: 320px;
+	border: black dashed;
+}
+
+.box-six {
+	background-color: rgb(30, 143, 247);
+	height: 320px;
+	width: 35%;
+	border: black dashed;
+}
+
+.box-seven {
+	background-color: rgb(249, 191, 203);
+	height: 320px;
+	width: 20%;
+	border: black dashed;
+}
+
+.box-eight {
+	background-color: rgb(34, 136, 34);
+	height: 320px;
+	width: 55%;
 	border: black dashed;
 }
