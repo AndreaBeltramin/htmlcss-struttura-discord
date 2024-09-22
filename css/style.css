@@ -17,26 +17,35 @@ a {
 	text-decoration: none;
 	color: black;
 }
-/*header*/
+/*HEADER*/
 .page-header {
 	background-color: rgb(172, 214, 228);
-	padding: 30px 50px;
-	display: flex;
-	justify-content: center;
+	padding: 20px 80px;
 }
 
-.nav {
+.container {
 	display: flex;
 	background-color: #d7a522;
 	justify-content: space-between;
 	border: black dashed;
 	padding: 15px;
 }
+
 .logo {
 	border-right: black dashed;
+	width: 20%;
+}
+.link {
+	width: 60%;
+	text-align: center;
+}
+.login {
+	width: 20%;
+	border-left: black dashed;
+	text-align: end;
 }
 
-/*main*/
+/*MAIN*/
 .first-section {
 	display: flex;
 	background-color: rgb(1, 0, 136);
