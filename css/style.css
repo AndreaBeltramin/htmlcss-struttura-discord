@@ -6,17 +6,11 @@
 }
 
 /*UTILS*/
-.container {
-	margin: 0 auto;
-	padding: 0 10px;
-	width: 1000px;
-	max-width: 100%;
-}
-
 a {
 	text-decoration: none;
 	color: black;
 }
+
 /*HEADER*/
 .page-header {
 	background-color: rgb(172, 214, 228);
@@ -24,39 +18,43 @@ a {
 }
 
 .container {
+	margin: 0 auto;
+	width: 1000px;
+	max-width: 100%;
 	display: flex;
 	background-color: #d7a522;
 	justify-content: space-between;
-	border: black dashed;
-	padding: 15px;
 }
 
 .logo {
-	border-right: black dashed;
+	border: black dashed;
 	width: 20%;
+	padding-left: 5px;
 }
 .link {
 	width: 60%;
 	text-align: center;
+	border: black dashed;
 }
 .login {
 	width: 20%;
-	border-left: black dashed;
+	border: black dashed;
 	text-align: end;
+	padding-right: 5px;
 }
 
 /*MAIN*/
 .first-section {
-	display: flex;
 	background-color: rgb(1, 0, 136);
+	display: flex;
 	justify-content: center;
-	height: 300px;
 	align-items: center;
+	height: 400px;
 }
-.first-box {
+.pink-box {
 	background-color: rgb(236, 129, 235);
-	height: 240px;
-	width: 600px;
+	height: 300px;
+	width: 700px;
 	border: black dashed;
 }
 .second-section {
@@ -64,28 +62,27 @@ a {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 400px;
+	height: 500px;
 }
-
-.second-container {
+.container-box {
+	width: 1000px;
+	max-width: 100%;
 	display: flex;
 	justify-content: center;
-	align-items: center;
-	width: 80%;
 }
 
-.second-box-item {
-	background-color: rgb(30, 143, 247);
-	height: 320px;
+.first-box {
 	border: black dashed;
+	height: 400px;
 	width: 60%;
+	background-color: rgb(30, 143, 247);
 }
 
-.third-box-item {
+.second-box {
 	background-color: rgb(249, 191, 203);
-	height: 320px;
-	border: black dashed;
+	height: 400px;
 	width: 40%;
+	border: black dashed;
 }
 
 .third-section {
@@ -93,39 +90,17 @@ a {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 400px;
-}
-.box-four {
-	background-color: rgb(249, 191, 203);
-	width: 200px;
-	height: 320px;
-	border: black dashed;
+	height: 500px;
 }
 
-.box-five {
-	background-color: rgb(30, 143, 247);
-	width: 35%;
-	height: 320px;
-	border: black dashed;
+.even-row {
+	display: flex;
+	flex-direction: row-reverse;
 }
 
-.box-six {
-	background-color: rgb(30, 143, 247);
-	height: 320px;
-	width: 35%;
-	border: black dashed;
-}
-
-.box-seven {
-	background-color: rgb(249, 191, 203);
-	height: 320px;
-	width: 20%;
-	border: black dashed;
-}
-
-.box-eight {
+.green-box {
 	background-color: rgb(34, 136, 34);
-	height: 320px;
+	height: 400px;
 	width: 55%;
 	border: black dashed;
 }
