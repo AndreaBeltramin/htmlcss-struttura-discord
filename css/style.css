@@ -101,7 +101,7 @@ a {
 .green-box {
 	background-color: rgb(34, 136, 34);
 	height: 400px;
-	width: 55%;
+	width: 100%;
 	border: black dashed;
 }
 
